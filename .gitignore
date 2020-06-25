@@ -1,0 +1,15 @@
+.metadata/
+# Maven #
+target/
+Servers/
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.settings/
+.classpath
+.project
+
+# vue
+node_modules/
