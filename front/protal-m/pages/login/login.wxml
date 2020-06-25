@@ -1,5 +1,0 @@
-<!--pages/login/login.wxml-->
-<image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645927217&di=eb98d19dc6fad629bc2cee42d24b277f&imgtype=0&src=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fblog%2F201404%2F22%2F20140422142715_8GtUk.thumb.600_0.jpeg' class='c-logo'></image>
-<view class="title">艳丽科技</view>
-<view class="msg">申请获得你的公开信息（昵称、头像等）</view>
-<button color="#eb2444"  open-type="getUserInfo" lang = "zh_CN" bindgetuserinfo = "onGotUserInfo" class=''>微信授权</button>
