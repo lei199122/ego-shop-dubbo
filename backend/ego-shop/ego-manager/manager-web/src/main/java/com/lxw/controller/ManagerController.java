@@ -16,6 +16,6 @@ public class ManagerController {
 	@GetMapping("/test")
 	public ResponseEntity<String> test(Integer i){
 		int j = 10 / i ;
-		return ResponseEntity.ok("成功"+i);
+		return ResponseEntity.ok("成功"+j);
 	}
 }
