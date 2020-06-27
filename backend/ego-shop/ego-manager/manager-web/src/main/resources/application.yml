@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: ego-manager #该服务的名称
+  datasource: #数据源    url: jdbc:mysql://localhost:3306/ego-shop
+    username: root
+    password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+    
+    
+mybatis-plus:  #MybatisPlus的配置  mapper-locations:  - classpath:/mapper/*.xml
+  type-aliases-package: com.lxw.entity
+  configuration:    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    
+    
+    
+swagger:  base-package: com.lxw.controller
+  name: leiwei
+  email: lei_zhy@163.com
+  url: 
+  title: ego-manager数据接口
+  description: 完成对系统的权限认证，菜单管理
+  termsof-service-url: 
+  license: Apache 2.0
+  
+
+  
